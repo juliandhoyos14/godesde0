@@ -4,10 +4,10 @@ import (
 	/*"fmt"
 	"runtime"
 
-	"github.com/juliandhoyos14/godesde0/ejercicios"
 	"github.com/juliandhoyos14/godesde0/variables"
-	"github.com/juliandhoyos14/godesde0/teclado"*/
-	"github.com/juliandhoyos14/godesde0/iteraciones"
+	"github.com/juliandhoyos14/godesde0/teclado"
+	"github.com/juliandhoyos14/godesde0/iteraciones"*/
+	"github.com/juliandhoyos14/godesde0/ejercicios"
 )
 
 func main() {
@@ -37,5 +37,5 @@ func main() {
 	fmt.Println("El numero es: ", num, " ", text)
 
 	teclado.IngresoNumeros()*/
-	iteraciones.Iterar()
+	ejercicios.TablaMultiplicar()
 }
