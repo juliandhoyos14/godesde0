@@ -1,15 +1,17 @@
 package main
 
 import (
-	"fmt"
+	/*"fmt"
 	"runtime"
 
 	"github.com/juliandhoyos14/godesde0/ejercicios"
 	"github.com/juliandhoyos14/godesde0/variables"
+	"github.com/juliandhoyos14/godesde0/teclado"*/
+	"github.com/juliandhoyos14/godesde0/iteraciones"
 )
 
 func main() {
-	fmt.Println("Hola mundo")
+	/*fmt.Println("Hola mundo")
 	variables.PrintIntegers()
 	variables.RestoVariables()
 	status, texto := variables.ConviertoATexto(3455)
@@ -33,4 +35,7 @@ func main() {
 
 	num, text := ejercicios.ConvertirAEntero("holi")
 	fmt.Println("El numero es: ", num, " ", text)
+
+	teclado.IngresoNumeros()*/
+	iteraciones.Iterar()
 }
