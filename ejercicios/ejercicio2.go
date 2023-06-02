@@ -16,7 +16,7 @@ func TablaMultiplicar() {
 		if err != nil {
 			panic("El dato ingresado es incorrecto " + err.Error())
 		}
-		for i := 0; i < 10; i++ {
+		for i := 1; i <= 10; i++ {
 			fmt.Println(numero1, "x", i, "=", numero1*i)
 		}
 	}
