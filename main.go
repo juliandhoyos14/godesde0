@@ -9,4 +9,8 @@ import (
 func main() {
 	fmt.Println("Hola mundo")
 	variables.PrintIntegers()
+	variables.RestoVariables()
+	status, texto := variables.ConviertoATexto(3455)
+	fmt.Println("status: ", status)
+	fmt.Println("texto: ", texto)
 }
